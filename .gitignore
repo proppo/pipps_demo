@@ -1,0 +1,10 @@
+*.pdf
+*.pyc
+*.png
+__pycache__
+*~
+docs/_build
+docs/*.rst
+logs
+\#*
+.cache

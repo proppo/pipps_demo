@@ -1,0 +1,3 @@
+#!/bin/bash -eux
+
+pytest pipps/tests -p no:warnings -v
