@@ -283,7 +283,7 @@ if __name__ == '__main__':
                         default=1.0)  # May also be None
     parser.add_argument('--batch-size', type=int, default=300)
     parser.add_argument('--rbf-centers', type=int, default=50)
-    parser.add_argument('--lr', type=float, default=5e-3)
+    parser.add_argument('--lr', type=float, default=1e-2)
     parser.add_argument('--dynamics-lr', type=float, default=0.1)
     parser.add_argument('--render', action='store_true')
     parser.add_argument('--gpu', action='store_true')
@@ -294,7 +294,7 @@ if __name__ == '__main__':
     parser.add_argument('--num-dynamics-opt-steps', type=int, default=100)
     parser.add_argument('--rollout-horizon', type=int, default=30)  # was 25
     parser.add_argument('--init-noise-std', type=float,
-                        default=0.2)  # was 0.02
+                        default=0.02)  # was 0.2
     parser.add_argument('--jitter', type=float, default=1e-6)
     parser.add_argument('--dynamics-model',
                         type=str,

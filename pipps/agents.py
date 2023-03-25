@@ -91,7 +91,7 @@ class MBAgent:
                      num_opt_steps,
                      manager=None,
                      callback=None,
-                     reinit_optimizer=False):
+                     reinit_optimizer=True):
         assert self.reward_func is not None
 
         if reinit_optimizer:
